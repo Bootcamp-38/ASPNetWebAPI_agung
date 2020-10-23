@@ -11,6 +11,7 @@ namespace API.Context
     {
         public MyContext() : base("ASPNetWebAPI") { }
         public DbSet<Department> Departments { get; set; }
+
        
     }
 }
