@@ -41,12 +41,19 @@ namespace API.Repositories
 
         public Task<IEnumerable<Department>> Get(int id)
         {
-            throw new NotImplementedException();
+            var sp = "SP_GetById_Department";
+            parameters.Add("@Id", id);
+            var getDataById = connection.Query<Department>(sp, parameters, commandType: CommandType.StoredProcedure);
+            return Task.FromResult(getDataById);
         }
 
         public int Update(int id, Department department)
         {
-            throw new NotImplementedException();
+            var sp = "SP_UpdateDepartment";
+            parameters.Add("@Id", id);
+            parameters.Add("@Name", department.Name);
+            var update = connection.Execute(sp, parameters, commandType: CommandType.StoredProcedure);
+            return update;
         }
     }
 }
