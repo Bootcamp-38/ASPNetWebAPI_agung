@@ -26,7 +26,10 @@ namespace API.Repositories
 
         public int Delete(int id)
         {
-            throw new NotImplementedException();
+            var sp = "SP_DeleteDepartment";
+            parameters.Add("@Id", id);
+            var delete = connection.Execute(sp, parameters, commandType: CommandType.StoredProcedure);
+            return delete;
         }
 
         public IEnumerable<Department> Get()

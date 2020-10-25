@@ -23,5 +23,11 @@ namespace API.Controllers
             return Ok(getdata);
 
         }
+        [HttpDelete]
+        public IHttpActionResult Delete(int id)
+        {
+            _repository.Delete(id);
+            return Ok("Data Berhasil di Delete");
+        }
     }
 }
