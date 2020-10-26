@@ -76,3 +76,17 @@ D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\ASPNetWebAPI\obj\Debug\ASPNet
 D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\ASPNetWebAPI\obj\Debug\ASPNetWebAPI.csproj.CopyComplete
 D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\ASPNetWebAPI\obj\Debug\ASPNetWebAPI.dll
 D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\ASPNetWebAPI\obj\Debug\ASPNetWebAPI.pdb
+D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\ASPNetWebAPI\bin\API.dll
+D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\ASPNetWebAPI\bin\System.Net.Http.Formatting.dll
+D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\ASPNetWebAPI\bin\System.Web.Http.dll
+D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\ASPNetWebAPI\bin\Dapper.dll
+D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\ASPNetWebAPI\bin\EntityFramework.dll
+D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\ASPNetWebAPI\bin\System.Web.Http.WebHost.dll
+D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\ASPNetWebAPI\bin\API.pdb
+D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\ASPNetWebAPI\bin\API.dll.config
+D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\ASPNetWebAPI\bin\System.Net.Http.Formatting.xml
+D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\ASPNetWebAPI\bin\System.Web.Http.xml
+D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\ASPNetWebAPI\bin\Dapper.xml
+D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\ASPNetWebAPI\bin\EntityFramework.xml
+D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\ASPNetWebAPI\bin\System.Web.Http.WebHost.xml
+D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\ASPNetWebAPI\obj\Debug\ASPNetWebAPI.csprojAssemblyReference.cache

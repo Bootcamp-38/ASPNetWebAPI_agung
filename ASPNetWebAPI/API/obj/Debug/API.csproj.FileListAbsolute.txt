@@ -51,6 +51,7 @@ D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\bin\roslyn\vbc.rsp
 D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\bin\roslyn\VBCSCompiler.exe
 D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\bin\roslyn\VBCSCompiler.exe.config
 D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\bin\Antlr3.Runtime.dll
+D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\bin\Dapper.dll
 D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\bin\EntityFramework.dll
 D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\bin\EntityFramework.SqlServer.dll
 D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
@@ -67,6 +68,7 @@ D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\bin\System.Web.WebPages.D
 D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\bin\System.Web.WebPages.dll
 D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\bin\System.Web.WebPages.Razor.dll
 D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\bin\WebGrease.dll
+D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\bin\Dapper.xml
 D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\bin\EntityFramework.xml
 D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\bin\EntityFramework.SqlServer.xml
 D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\bin\Newtonsoft.Json.xml
@@ -82,12 +84,10 @@ D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\bin\System.Web.WebPages.D
 D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\bin\System.Web.WebPages.Razor.xml
 D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\bin\Antlr3.Runtime.pdb
 D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\obj\Debug\API.csprojAssemblyReference.cache
 D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\obj\Debug\API.Migrations.addmodeldepartment.resources
 D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\obj\Debug\API.csproj.GenerateResource.cache
 D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\obj\Debug\API.csproj.CoreCompileInputs.cache
 D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\obj\Debug\API.csproj.CopyComplete
 D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\obj\Debug\API.dll
 D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\obj\Debug\API.pdb
-D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\bin\Dapper.dll
-D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\bin\Dapper.xml
-D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\obj\Debug\API.csprojAssemblyReference.cache

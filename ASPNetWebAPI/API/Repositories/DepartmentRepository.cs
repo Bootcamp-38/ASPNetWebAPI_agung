@@ -39,12 +39,19 @@ namespace API.Repositories
             return get;
         }
 
-        public Task<IEnumerable<Department>> Get(int id)
+        //public Task<IEnumerable<Department>> Get(int id)
+        //{
+        //    var sp = "SP_GetByIdDepartment";
+        //    parameters.Add("@Id", id);
+        //    var getDataById = connection.Query<Department>(sp, parameters, commandType: CommandType.StoredProcedure);
+        //    return Task.FromResult(getDataById);
+        //}
+        public async Task<IEnumerable<Department>> Get(int id)
         {
-            var sp = "SP_GetById_Department";
+            var sp = "SP_GetByIdDepartment";
             parameters.Add("@Id", id);
-            var getDataById = connection.Query<Department>(sp, parameters, commandType: CommandType.StoredProcedure);
-            return Task.FromResult(getDataById);
+            var getDataById =  await connection.QueryAsync<Department>(sp, parameters, commandType: CommandType.StoredProcedure);
+            return getDataById;
         }
 
         public int Update(int id, Department department)
