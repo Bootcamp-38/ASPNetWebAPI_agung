@@ -16,7 +16,7 @@ namespace ASPNetWebAPI
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Departments", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Divisions", action = "Index", id = UrlParameter.Optional }
             );
         }
     }

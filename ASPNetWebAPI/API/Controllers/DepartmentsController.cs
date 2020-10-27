@@ -38,8 +38,10 @@ namespace API.Controllers
         [HttpDelete]
         public IHttpActionResult Delete(int id)
         {
-            _repository.Delete(id);
-            return Ok("Data Berhasil di Delete");
+            //_repository.Delete(id);
+            //return Ok("Data Berhasil di Delete");
+
+
             //var delete = _repository.delete(id);
             //if delete(!id.Equals(null)
             //{
@@ -47,29 +49,29 @@ namespace API.Controllers
             //    return Ok("Data Berhasil di Delete");
             //}
             //return BadRequest("Department Id Can't be null");
-            //if (!id.Equals (null))
-            //{
-            //    _repository.Delete(id);
-            //    return Ok("Data Berhasil di Delete");
-            //}
-            //return BadRequest("Department Id Can't be null");
+            if (!id.Equals(null))
+            {
+                _repository.Delete(id);
+                return Ok("Data Berhasil di Delete");
+            }
+            return BadRequest("Department Id Can't be null");
 
 
         }
         [HttpPut]
         public IHttpActionResult Update(int id, Department department)
         {
-            _repository.Update(id, department);
-            return Ok("Data Department Berhasil di Updated");
-            //if ((department.Name != null) && (department.Name != ""))
-            //{
+            //_repository.Update(id, department);
+            //return Ok("Data Department Berhasil di Updated");
+            if ((department.Name != null) && (department.Name != ""))
+            {
 
-            //    _repository.Update(id, department);
-            //    return Ok("Data Department Berhasil di Updated");
-            //}
-            //return BadRequest("Department Name Can't be null");
+                _repository.Update(id, department);
+                return Ok("Data Department Berhasil di Updated");
+            }
+            return BadRequest("Department Name Can't be null");
 
-           
+
         }
 
         [ResponseType(typeof(Department))]
