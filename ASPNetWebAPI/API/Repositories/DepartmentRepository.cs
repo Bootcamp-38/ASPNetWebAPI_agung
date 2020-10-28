@@ -20,6 +20,7 @@ namespace API.Repositories
         {
             var sp = "SP_InsertDepartment";
             parameters.Add("@Name", department.Name);
+            parameters.Add("@Date", department.Tanggal);
             var create = connection.Execute(sp, parameters, commandType: CommandType.StoredProcedure);
             return create;
         }
@@ -59,6 +60,7 @@ namespace API.Repositories
             var sp = "SP_UpdateDepartment";
             parameters.Add("@Id", id);
             parameters.Add("@Name", department.Name);
+            parameters.Add("@Date", department.Tanggal);
             var update = connection.Execute(sp, parameters, commandType: CommandType.StoredProcedure);
             return update;
         }

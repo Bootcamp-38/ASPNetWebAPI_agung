@@ -40,6 +40,23 @@
             <div class="col-12">
                 <div class="card">
                     <div class="card-body">
+                        <div class="col-md-2 pl-1">
+                            <!--form range-->
+                            <table border="0" cellspacing="5" cellpadding="5">
+                                <tbody>
+                                    <tr>
+                                        <td>Minimum Date:</td>
+                                        <td><input name="min" id="min" type="text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Maximum Date:</td>
+                                        <td><input name="max" id="max" type="text"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <!--batas form range-->
+                        </div>
                         <h4 class="card-title">Data Table</h4>
                         <h6 class="card-subtitle">Data table example</h6>
                         <div class="col-md-6 col-4 align-self-center">
@@ -71,16 +88,23 @@
                                                     <input type="text" class="form-control" Id="Name"
                                                            placeholder="Enter Department" name="Name">
                                                 </div>
+                                                <div class="form-group">
+                                                    <label for="Email">Tanggal:</label>
+                                                    <input type="date" class="form-control" Id="Tanggal"
+                                                           placeholder="Enter Department" name="Tanggal">
+                                                </div>
                                             </form>
                                         </div>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-success" data-dismiss="modal" id="Save" 
-                                                onclick="Save();"><i class="fa fa-save"></i>
+                                        <button type="button" class="btn btn-success" data-dismiss="modal" id="Save"
+                                                onclick="Save();">
+                                            <i class="fa fa-save"></i>
                                             Insert
                                         </button>
                                         <button type="button" class="btn btn-warning" data-dismiss="modal" id="Update"
-                                                onclick="Update();"><i class="fa fa-edit"></i>
+                                                onclick="Update();">
+                                            <i class="fa fa-edit"></i>
                                             Update
                                         </button>
                                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -92,8 +116,9 @@
                             <table id="myTable" class="table table-bordered table-striped">
                                 <thead>
                                     <tr>
-                                        <th>Id</th>
+                                        <th>No</th>
                                         <th>Name</th>
+                                        <th>Tanggal</th>
                                         <th>Action</th>
                                     </tr>
                                 </thead>
@@ -199,6 +224,7 @@
     <script src="~/Content/Mini AdminPro/assets/plugins/datatables/jquery.dataTables.min.js"></script>
     <script src="~/Content/Script/DepartmentScript.js"></script>
     <script src="~/Content/Script/sweetalert2@10.js"></script>
+    <script src="~/Content/Mini AdminPro/assets/plugins/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
 
     <!--    start - This is for export functionality only-- >
             <script src="https://cdn.datatables.net/buttons/1.2.2/js/dataTables.buttons.min.js"></script>
@@ -213,6 +239,7 @@
     <!-- Style switcher -->
     <!-- ============================================================== -->
     <script src="~/Content/Mini AdminPro/assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
+
 }
 
 

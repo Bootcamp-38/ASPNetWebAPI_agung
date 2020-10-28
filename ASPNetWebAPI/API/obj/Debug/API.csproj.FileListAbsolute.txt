@@ -84,10 +84,11 @@ D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\bin\System.Web.WebPages.D
 D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\bin\System.Web.WebPages.Razor.xml
 D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\bin\Antlr3.Runtime.pdb
 D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\obj\Debug\API.csprojAssemblyReference.cache
 D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\obj\Debug\API.Migrations.adddivision.resources
+D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\obj\Debug\API.Migrations.adddate.resources
 D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\obj\Debug\API.csproj.GenerateResource.cache
 D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\obj\Debug\API.csproj.CoreCompileInputs.cache
 D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\obj\Debug\API.csproj.CopyComplete
 D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\obj\Debug\API.dll
 D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\obj\Debug\API.pdb
-D:\bootcamp\github\ASPNetWebAPI_agung\ASPNetWebAPI\API\obj\Debug\API.csprojAssemblyReference.cache

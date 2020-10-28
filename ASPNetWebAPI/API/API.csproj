@@ -179,6 +179,10 @@
     <Compile Include="Migrations\202010270555524_adddivision.designer.cs">
       <DependentUpon>202010270555524_adddivision.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202010280144450_adddate.cs" />
+    <Compile Include="Migrations\202010280144450_adddate.designer.cs">
+      <DependentUpon>202010280144450_adddate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Department.cs" />
     <Compile Include="Models\Division.cs" />
@@ -274,6 +278,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202010270555524_adddivision.resx">
       <DependentUpon>202010270555524_adddivision.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010280144450_adddate.resx">
+      <DependentUpon>202010280144450_adddate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -14,6 +14,8 @@ namespace API.Models
         public int Id { get; set; }
         public string Name { get; set; }
 
-       
+        public DateTime Tanggal { get; set; }
+
+
     }
 }
